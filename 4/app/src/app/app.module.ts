@@ -14,15 +14,10 @@ import { SharedModule } from './shared/shared.module';
     AppComponent,
     ThemeListComponent,
     RecentPostsComponent,
-    MainComponent
+    MainComponent,
   ],
-  imports: [
-    BrowserModule,
-    CoreModule,
-    HttpClientModule,
-    SharedModule
-  ],
+  imports: [BrowserModule, CoreModule, HttpClientModule, SharedModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
